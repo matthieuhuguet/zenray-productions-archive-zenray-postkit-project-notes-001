@@ -1,0 +1,89 @@
+# zenray-postkit : project feedback, append only (3 October 2026, 10:50:18 +0200)
+
+## 3 October 2026, 10:50:18 +0200 : Log
+
+<!-- feedback-event:a141af15f65b0a7e3cbecd2a8d0faea1d9eb81f906c6cdd2897405da8379e4d1 (3 October 2026, 10:50:18 +0200) -->
+- Project: zenray-postkit; kind: log. (3 October 2026, 10:50:18 +0200)
+
+> Project initialized: ZenRayPostKit. Workshop: /Users/zenray/.claude/tmp/tmp-zenray-postkit. (3 October 2026, 10:50:18 +0200)
+
+## 3 October 2026, 10:49:41 +0200 : Prompt
+
+<!-- feedback-event:eca99fa5900cdc2565f2781a7a4f58272e3c27b2148613cc72ac0137d52e3aa5 (3 October 2026, 10:49:41 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 10:49:41 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:49:41 +0200)
+
+> /Users/zenray/Desktop/Screenshot 2026-10-03 at 10.40.10 (2).png (3 October 2026, 10:49:41 +0200)
+>
+> https://docs.plugkit.co/ scrap l'intégralité de la doc de plug kit on va construire exactement la même chose commence par créer un doc de référence le but c'est de comprendre (3 October 2026, 10:49:41 +0200)
+>
+> le tout va dans une interface piloté par /zenrayprogress-context pour voir le dashboard de ce qui est piloté (3 October 2026, 10:49:41 +0200)
+>
+> une fois que le plan est finalisé (3 October 2026, 10:49:41 +0200)
+>
+> toute la documentation de ZenRayPostKit  évolue au sein de son propre skill et contexte de projet zenray-postkit (3 October 2026, 10:49:41 +0200)
+> PostKit devenant le nom du produit (3 October 2026, 10:49:41 +0200)
+>
+> code tout ne t'arrête pas (3 October 2026, 10:49:41 +0200)
+>
+> /dont-stop (3 October 2026, 10:49:41 +0200)
+
+## 3 October 2026, 10:49:46 +0200 : Prompt
+
+<!-- feedback-event:f11beb169a2477b8efff719c9c8d45c0b1703986f1e95a25d0d9a6061ad15799 (3 October 2026, 10:49:46 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 10:49:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:49:46 +0200)
+
+> [Image: original 3840x2160, displayed at 2000x1125. Multiply coordinates by 1.92 to map to original image.] (3 October 2026, 10:49:46 +0200)
+
+## 3 October 2026, 10:49:47 +0200 : Prompt
+
+<!-- feedback-event:70188dd3a697b1da68d9819876589ef1886cd9587492eddc98ecab99f1b0931a (3 October 2026, 10:49:47 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 10:49:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:49:47 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (3 October 2026, 10:49:47 +0200)
+>
+> # Dont stop (30 September 2026) (3 October 2026, 10:49:47 +0200)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (3 October 2026, 10:49:47 +0200)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (3 October 2026, 10:49:47 +0200)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (3 October 2026, 10:49:47 +0200)
+
+## 3 October 2026, 10:49:57 +0200 : Prompt
+
+<!-- feedback-event:a5614479e79af21fa6ee679f19cee769c98e44bff96340e37703601de7678312 (3 October 2026, 10:49:57 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 10:49:57 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:49:57 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenrayprogress-context (3 October 2026, 10:49:57 +0200)
+>
+> # ZenRayProgress Context (3 October 2026, 10:49:57 +0200)
+>
+> Work in `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress`. (3 October 2026, 10:49:57 +0200)
+>
+> 1. Read `docs/INDEX-ERREURS-FEATURES.md` first, then `CLAUDE.md` and the last relevant global entries with (3 October 2026, 10:49:57 +0200)
+>    `progress.mjs tail --project "ZenRayProgress" --count 3`. (3 October 2026, 10:49:57 +0200)
+> 2. Inspect `git status --short`; preserve unrelated changes. (3 October 2026, 10:49:57 +0200)
+> 3. Read the actual call sites and code for the requested feature with `rg`; do not rely on Memory or old plans when the repository differs. (3 October 2026, 10:49:57 +0200)
+> 4. Reuse existing helpers and validate the real flow (build, endpoint, or browser) before claiming success. (3 October 2026, 10:49:57 +0200)
+> 5. Journal the result only in `/Users/zenray/.claude/PROGRESS.md` through the `progress` skill. The repository's (3 October 2026, 10:49:57 +0200)
+>    former `PROGRESS.md` is legacy read-only until Matthieu validates its deletion. (3 October 2026, 10:49:57 +0200)
+>
+> ## Téléchargements ZIP, contrôle du 2026-09-03 (3 October 2026, 10:49:57 +0200)
+>
+> Réutiliser `src/lib/bulkZip.js` et `notifyProgress` dans `src/components/Notifications.jsx`. (3 October 2026, 10:49:57 +0200)
+> `runZipDownload` dans App relie la notification et le spinner Finder au même état réel. (3 October 2026, 10:49:57 +0200)
+> Le callback annonce lecture, écriture et finalisation ; 100 % attend la fermeture disque. (3 October 2026, 10:49:57 +0200)
+> Vérifier avec `npx vitest run src/lib/bulkZip.test.js src/components/Notifications.test.jsx` : (3 October 2026, 10:49:57 +0200)
+> archives relues, fermeture retardée, erreurs disque, annulation, repli Blob et notification persistante. (3 October 2026, 10:49:57 +0200)
+
+## 3 October 2026, 10:50:57 +0200 : Iteration
+
+<!-- feedback-event:a19258b6b6406aaf9920d596b0305c9160a79d8e5ab9313940ddf79a0821aadb (3 October 2026, 10:50:57 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 10:50:57 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:50:57 +0200)
+
+> Je lis d'abord le cœur conceptuel (index, démarrage, authentification, concepts). (3 October 2026, 10:50:57 +0200)
