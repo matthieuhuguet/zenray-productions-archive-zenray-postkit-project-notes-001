@@ -127,3 +127,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:59:24 +0200)
 
 > Je démarre la construction du produit : dépôt `ZenRayPostKit`, noyau (configuration, erreurs, cryptographie, stockage, validation contre la spec OpenAPI de PlugKit). (3 October 2026, 10:59:24 +0200)
+
+## 3 October 2026, 11:02:50 +0200 : Iteration
+
+<!-- feedback-event:5017da309481a1d076b2a39bca62e3d2a80141c8c6e741913692f68806bf1615 (3 October 2026, 11:02:50 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:02:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:02:50 +0200)
+
+> Je construis le moteur de PostKit : webhooks et usage sont écrits, j'enchaîne avec les comptes, la connexion OAuth, les médias puis la publication. (3 October 2026, 11:02:50 +0200)
