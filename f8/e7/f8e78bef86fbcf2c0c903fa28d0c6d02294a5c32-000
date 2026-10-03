@@ -3,3 +3,12 @@
 - Project ID: zenray-postkit. (3 October 2026)
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-postkit/FEEDBACK.md. (3 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (3 October 2026)
+
+## 3 October 2026 : Naissance du projet PostKit
+
+- Demande de Matthieu : scraper l'intégralité de la doc de PlugKit (docs.plugkit.co), construire exactement la même chose sous le nom PostKit, avec un tableau de bord piloté depuis ZenRayProgress. (3 October 2026)
+- Ajout demandé le même jour : intégrations du site (skill zenray-website), d'ArtStation et de LinkedIn. (3 October 2026)
+- Toute la documentation du produit vit dans le skill `~/.claude/skills/zenray-postkit/` (SKILL.md et references/), le présent fichier ne porte que ce que le projet sait de durable. (3 October 2026)
+- Constat de recherche : LinkedIn existe partiellement dans PlugKit (énumération et tableau de publication, sans page), le site et ArtStation sont absents. ArtStation n'a aucune API publique d'écriture, donc mode passation. (3 October 2026)
+- Dépôt du code : /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPostKit. (3 October 2026)
+- Atelier et moisson brute : /Users/zenray/.claude/tmp/tmp-zenray-postkit/reference/plugkit-docs/. (3 October 2026)
