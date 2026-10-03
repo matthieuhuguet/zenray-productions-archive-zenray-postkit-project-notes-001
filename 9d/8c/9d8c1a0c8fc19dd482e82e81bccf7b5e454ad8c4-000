@@ -119,3 +119,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:57:55 +0200)
 
 > Je rédige maintenant le `SKILL.md` du skill et le contexte de projet. (3 October 2026, 10:57:55 +0200)
+
+## 3 October 2026, 10:59:24 +0200 : Iteration
+
+<!-- feedback-event:e2951cc7bcc4864b81315f8ce4385f9c2c181a49037b1dba24d1f831c19fc423 (3 October 2026, 10:59:24 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 10:59:24 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 10:59:24 +0200)
+
+> Je démarre la construction du produit : dépôt `ZenRayPostKit`, noyau (configuration, erreurs, cryptographie, stockage, validation contre la spec OpenAPI de PlugKit). (3 October 2026, 10:59:24 +0200)
