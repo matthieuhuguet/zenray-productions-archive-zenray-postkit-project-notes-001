@@ -294,3 +294,37 @@
 > Colle la clé dans la vue. Chrome autorise une page https à appeler `127.0.0.1` ; Safari peut le bloquer, auquel cas utilise Chrome. (3 October 2026, 11:41:54 +0200)
 >
 > Je n'ai rien commité ni poussé : seul le déploiement est fait. Les changements restent dans l'arbre de travail de ZenRayProgress. (3 October 2026, 11:41:54 +0200)
+
+## 3 October 2026, 12:10:55 +0200 : Prompt
+
+<!-- feedback-event:18863783673f268854ceed586a35f878b110753c59a2544104d6eafafd47bf34 (3 October 2026, 12:10:55 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 12:10:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 12:10:55 +0200)
+
+> crée un skill de context pour post kit... (3 October 2026, 12:10:55 +0200)
+
+## 3 October 2026, 12:11:54 +0200 : Iteration
+
+<!-- feedback-event:eba43d19aeab4b92d32112b830bf884f479a238c545c4f973a8740d8ed016721 (3 October 2026, 12:11:54 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 12:11:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 12:11:54 +0200)
+
+> Le skill `zenraypostkit-context` est créé et synchronisé avec Codex et Memory. Il est calqué sur `zenrayprogress-context`, et le skill `zenray-postkit` reste la documentation. (3 October 2026, 12:11:54 +0200)
+>
+> Il charge l'état réel du code avant de travailler, avec un script que j'ai lancé pour vérifier : (3 October 2026, 12:11:54 +0200)
+>
+> ```bash (3 October 2026, 12:11:54 +0200)
+> node ~/.claude/skills/zenraypostkit-context/scripts/context.mjs          # état en quelques secondes (3 October 2026, 12:11:54 +0200)
+> node ~/.claude/skills/zenraypostkit-context/scripts/context.mjs --test   # plus les tests (3 October 2026, 12:11:54 +0200)
+> ``` (3 October 2026, 12:11:54 +0200)
+>
+> Le script imprime : (3 October 2026, 12:11:54 +0200)
+> - l'état des deux dépôts (le produit n'a encore aucun commit) ; (3 October 2026, 12:11:54 +0200)
+> - si le serveur répond sur le port 8787 (il est arrêté en ce moment) ; (3 October 2026, 12:11:54 +0200)
+> - le nombre de routes (159) et d'outils MCP (107) ; (3 October 2026, 12:11:54 +0200)
+> - le niveau de vérification de chaque connecteur ; (3 October 2026, 12:11:54 +0200)
+> - les fichiers du tableau de bord et les dernières entrées du journal. (3 October 2026, 12:11:54 +0200)
+>
+> Avec `--test`, il lance aussi les tests : 71 passent pour le produit, 19 pour le tableau de bord. (3 October 2026, 12:11:54 +0200)
+>
+> Le `SKILL.md` donne les étapes de lecture, une carte « je touche X, j'ouvre Y » et les règles à ne pas oublier. Parmi elles : aucun connecteur n'est `live`, `null` s'affiche `n/a` et jamais 0, ArtStation reste en passation, et le déploiement de ZenRayProgress compare l'empreinte du paquet local à celle de la production. (3 October 2026, 12:11:54 +0200)
