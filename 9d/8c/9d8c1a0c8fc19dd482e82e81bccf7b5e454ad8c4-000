@@ -175,3 +175,122 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:35:03 +0200)
 
 > Je rédige maintenant le README du produit et le document « comment PostKit est construit » dans le skill, avec l'état réellement vérifié. (3 October 2026, 11:35:03 +0200)
+
+## 3 October 2026, 11:39:10 +0200 : Prompt
+
+<!-- feedback-event:8280c70145f97b9e02116a65bf3d00e47b4610da1ebb19186fe493feb0d672ea (3 October 2026, 11:39:10 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 11:39:10 +0200)
+
+> On va ajouter aussi intégration sur mon site /zenray-website + artstation + linkedin je crois que c'est pas présent dans le PlugKit initial go (3 October 2026, 11:39:10 +0200)
+
+## 3 October 2026, 11:39:10 +0200 : Log
+
+<!-- feedback-event:e0d6b31dfa53f43777ea150eadb959c5d617f8dc783d9dc3a3d04e73ddfe92e9 (3 October 2026, 11:39:10 +0200) -->
+- Project: zenray-postkit; kind: log. (3 October 2026, 11:39:10 +0200)
+
+> Proof 3 October 2026: 71 product tests green (gates C1 142 operations and C2 103 MCP tools, both tested in the failing direction), 19 dashboard tests incl. 5 contract tests against a real PostKit process, ZenRayProgress full suite 160 files 1634 tests, vite build OK. LinkedIn exists half-documented in PlugKit (enum + publishing table, no page); website and ArtStation are absent there. ArtStation has no public write API (handoff mode). No connector is live: no platform credentials on this Mac. (3 October 2026, 11:39:10 +0200)
+
+## 3 October 2026, 11:39:10 +0200 : Order of work
+
+<!-- feedback-event:980f4ae8096eae9ecf8bc4d19e3eef24769c272f71e3533b57dd574707b1bac4 (3 October 2026, 11:39:10 +0200) -->
+- Project: zenray-postkit; kind: order. (3 October 2026, 11:39:10 +0200)
+
+> Order of work asked on 3 October 2026: scrape the whole PlugKit docs, write the reference document first, finalize the plan, then code everything without stopping, dashboard inside ZenRayProgress (zenrayprogress-context), all documentation in the zenray-postkit skill, PostKit is the product name, add website + ArtStation + LinkedIn. (3 October 2026, 11:39:10 +0200)
+
+## 3 October 2026, 11:39:34 +0200 : Iteration
+
+<!-- feedback-event:8d90fdff7ef24c6615468a2110f84f3d9abbd5ff5612c46954d477eb327d7460 (3 October 2026, 11:39:34 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:39:34 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:39:34 +0200)
+
+> PostKit est construit, testé et branché dans ZenRayProgress, mais aucune plateforme réelle n'a encore été appelée : il n'y a aucun identifiant sur ce Mac. Les tests passent contre un faux réseau et un serveur réel, les connecteurs réseau restent donc au niveau « mock ». Le niveau de chaque connecteur (Live, Mock, Local, Handoff, Sandbox) s'affiche dans le tableau de bord. (3 October 2026, 11:39:34 +0200)
+>
+> **Doc PlugKit.** J'ai scrapé la documentation entière : 165 pages, la spécification OpenAPI de 142 opérations et la liste exacte des 103 outils MCP. Le document de référence est envoyé en pièce jointe ; le plan et l'étude des intégrations sont dans le skill `zenray-postkit`. (3 October 2026, 11:39:34 +0200)
+>
+> **Produit.** PostKit (dépôt `ZenRayPostKit`) reprend les 142 opérations de PlugKit, aux mêmes chemins et avec les mêmes formats de requête. Il y ajoute 17 routes propres, soit 159 au total. Le serveur MCP expose les 103 outils (mêmes noms, même nature lecture ou écriture) plus 4 extensions, avec OAuth 2.1. Le planificateur publie les posts dus, envoie séquences et diffusions, collecte les statistiques et livre les webhooks signés. Treize connecteurs sont écrits. (3 October 2026, 11:39:34 +0200)
+>
+> **Tes trois ajouts.** (3 October 2026, 11:39:34 +0200)
+> - **LinkedIn** n'est pas absent de PlugKit : il apparaît à moitié, sans page dédiée. PostKit le fait en entier avec l'API officielle de publication. Lire les posts et les statistiques exige une permission restreinte, ces fonctions sont donc désactivées. (3 October 2026, 11:39:34 +0200)
+> - **ArtStation** n'a aucune API publique d'écriture. PostKit prépare titre, description, étiquettes et images, la cible attend, puis tu publies et tu confirmes avec l'URL du projet. (3 October 2026, 11:39:34 +0200)
+> - **Site** : PostKit transforme un post en article dans un worktree git propre sur la branche `postkit/<slug>`, sans toucher ton arbre de travail. Par défaut il s'arrête à la branche ; il ne déploie que si tu l'actives sur le compte. (3 October 2026, 11:39:34 +0200)
+>
+> **Tableau de bord.** L'entrée PostKit est dans la barre latérale de ZenRayProgress, juste après Plan, avec dix onglets. Quand le serveur ne tourne pas, la vue affiche la commande de démarrage au lieu d'un écran blanc. Tout est testé, mais je n'ai pas regardé le rendu visuel, conformément à la règle du projet. (3 October 2026, 11:39:34 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (3 October 2026, 11:39:34 +0200)
+> |---|---|---| (3 October 2026, 11:39:34 +0200)
+> | Scraper toute la doc PlugKit | Oui | 165 pages sur 165 reçues, 142 opérations et 103 outils comptés | (3 October 2026, 11:39:34 +0200)
+> | Un doc de référence pour comprendre | Oui | Document de 17 sections, envoyé en pièce jointe | (3 October 2026, 11:39:34 +0200)
+> | Construire la même chose, nom PostKit | Oui | 71 tests du produit verts ; les contrôles « tout PlugKit est présent » échouent bien quand on retire une route ou un outil | (3 October 2026, 11:39:34 +0200)
+> | Interface pilotée depuis ZenRayProgress | Oui | 19 tests de la vue, dont 5 contre un vrai processus PostKit sur les 10 onglets ; build et suite complète de ZenRayProgress verts (1634 tests) | (3 October 2026, 11:39:34 +0200)
+> | Site, ArtStation, LinkedIn | Oui | LinkedIn contre un faux réseau ; site sur un vrai dépôt git temporaire avec images WebP vérifiées ; ArtStation en passation | (3 October 2026, 11:39:34 +0200)
+> | Toute la doc dans le skill `zenray-postkit` | Oui | Skill, contexte de projet et journal à jour, dates sur chaque ligne | (3 October 2026, 11:39:34 +0200)
+> | Brancher une vraie plateforme | Non | Aucun identifiant sur ce Mac, donc aucun appel réel | (3 October 2026, 11:39:34 +0200)
+> | Mettre en ligne | Non, volontairement | Rien n'est déployé, rien n'est commité ; le serveur tourne en local seulement | (3 October 2026, 11:39:34 +0200)
+>
+> Pour voir le tableau de bord maintenant : (3 October 2026, 11:39:34 +0200)
+>
+> ```bash (3 October 2026, 11:39:34 +0200)
+> node ~/Create/Build/Productions/GithubProductions/ZenRayPostKit/src/server/cli.js key create dashboard (3 October 2026, 11:39:34 +0200)
+> ``` (3 October 2026, 11:39:34 +0200)
+>
+> ```bash (3 October 2026, 11:39:34 +0200)
+> node ~/Create/Build/Productions/GithubProductions/ZenRayPostKit/src/server/cli.js serve (3 October 2026, 11:39:34 +0200)
+> ``` (3 October 2026, 11:39:34 +0200)
+>
+> Colle ensuite la clé dans l'onglet PostKit. La page déployée (https) peut appeler le serveur local sous Chrome, mais Safari risque de bloquer ; en développement local ça passe partout. Un script `scripts/launchagent.sh install` peut le garder allumé, je ne l'ai pas lancé. (3 October 2026, 11:39:34 +0200)
+>
+> **À toi de décider.** (3 October 2026, 11:39:34 +0200)
+> - Mettre en ligne ZenRayProgress avec la nouvelle vue, et éventuellement un serveur PostKit dans le nuage (compte Cloudflare, jetons exposés). (3 October 2026, 11:39:34 +0200)
+> - Quels vrais comptes brancher en premier : je conseille Telegram, puis LinkedIn, puis le site ; Meta et TikTok demandent une revue d'application. (3 October 2026, 11:39:34 +0200)
+>
+> Ceci n'est pas une source de vérité, vérifie et fie-toi à ton for intérieur. (3 October 2026, 11:39:34 +0200)
+>
+> Ton message, en plus court : « Scrape la doc PlugKit, documente-la, reconstruis-la sous le nom PostKit avec site, ArtStation et LinkedIn, pilotée depuis ZenRayProgress, toute la doc dans le skill. » Deux termes utiles : une *porte de conformité* est un test qui échoue si la copie s'écarte de l'original, et la *passation* (handoff) est une étape finale laissée à l'humain quand aucune API n'existe. (3 October 2026, 11:39:34 +0200)
+
+## 3 October 2026, 11:40:48 +0200 : Prompt
+
+<!-- feedback-event:6a4db1fb22c3b427e536d824cd97053729448052cd5fb67f46e061221bfddec5 (3 October 2026, 11:40:48 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 11:40:48 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:40:48 +0200)
+
+> déploie ZenRayProgress avec la vue PostKit je la vois pas encore (3 October 2026, 11:40:48 +0200)
+
+## 3 October 2026, 11:40:48 +0200 : Prompt
+
+<!-- feedback-event:e8c20686ba7b305702a551bf3b93dba1750fac923a587ea3f1798889ecc0bf0e (3 October 2026, 11:40:48 +0200) -->
+- Project: zenray-postkit; kind: prompt. (3 October 2026, 11:40:48 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:40:48 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3/images/1.webp] (3 October 2026, 11:40:48 +0200)
+
+## 3 October 2026, 11:41:36 +0200 : Iteration
+
+<!-- feedback-event:c42792e9dcf33eff5611f6dc3d69e5d760bff49e73ecd71e6547df606f257332 (3 October 2026, 11:41:36 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:41:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:41:36 +0200)
+
+> Déployé. Je vérifie que la production sert bien le même paquet que le build local et qu'elle contient la vue PostKit. (3 October 2026, 11:41:36 +0200)
+
+## 3 October 2026, 11:41:54 +0200 : Iteration
+
+<!-- feedback-event:d82e4cb8a976e20d784911d72754e71a5dc94907d54038aa386cb8a523634f59 (3 October 2026, 11:41:54 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:41:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:41:54 +0200)
+
+> ZenRayProgress est déployé avec la vue PostKit. Le paquet servi par `zenray-progress.pages.dev` est identique à mon build local, et le morceau de code de la vue répond 200. (3 October 2026, 11:41:54 +0200)
+>
+> Recharge l'onglet ZenRayProgress : celui de ta capture date d'avant le déploiement et montre encore l'ancienne version. L'entrée **PostKit** apparaît dans la barre latérale, sous Plan. (3 October 2026, 11:41:54 +0200)
+>
+> La page déployée appelle ton serveur PostKit local, qu'il faut donc lancer d'abord. Sans lui, la vue affiche « PostKit is offline » avec la commande à copier. Pour obtenir une clé, puis démarrer le serveur : (3 October 2026, 11:41:54 +0200)
+>
+> ```bash (3 October 2026, 11:41:54 +0200)
+> node ~/Create/Build/Productions/GithubProductions/ZenRayPostKit/src/server/cli.js key create dashboard (3 October 2026, 11:41:54 +0200)
+> ``` (3 October 2026, 11:41:54 +0200)
+>
+> ```bash (3 October 2026, 11:41:54 +0200)
+> node ~/Create/Build/Productions/GithubProductions/ZenRayPostKit/src/server/cli.js serve (3 October 2026, 11:41:54 +0200)
+> ``` (3 October 2026, 11:41:54 +0200)
+>
+> Colle la clé dans la vue. Chrome autorise une page https à appeler `127.0.0.1` ; Safari peut le bloquer, auquel cas utilise Chrome. (3 October 2026, 11:41:54 +0200)
+>
+> Je n'ai rien commité ni poussé : seul le déploiement est fait. Les changements restent dans l'arbre de travail de ZenRayProgress. (3 October 2026, 11:41:54 +0200)
