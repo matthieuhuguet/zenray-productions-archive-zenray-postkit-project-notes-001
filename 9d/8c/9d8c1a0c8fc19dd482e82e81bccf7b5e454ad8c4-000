@@ -151,3 +151,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:26:04 +0200)
 
 > Maintenant les fichiers de base du tableau de bord : configuration, client API, hooks et composants d'interface. (3 October 2026, 11:26:04 +0200)
+
+## 3 October 2026, 11:29:41 +0200 : Iteration
+
+<!-- feedback-event:2a6654a09d84fe352322c7f14251e8d1af571a65ced08203927a8661c4c574b6 (3 October 2026, 11:29:41 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:29:41 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:29:41 +0200)
+
+> Les dix panneaux du tableau de bord sont écrits. J'écris maintenant la feuille de style (jetons du site uniquement), puis les tests et le build. (3 October 2026, 11:29:41 +0200)
+
+## 3 October 2026, 11:31:35 +0200 : Iteration
+
+<!-- feedback-event:6309975e4db87d746c259cf2d0303a0e4bc374bfb0de7424cdc6ca87f0c0d3c1 (3 October 2026, 11:31:35 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:31:35 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:31:35 +0200)
+
+> Le tableau de bord se compile et 12 de ses 14 tests passent; les deux échecs sont des sélecteurs de test trop larges, je les corrige. (3 October 2026, 11:31:35 +0200)
