@@ -12,3 +12,11 @@
 - Constat de recherche : LinkedIn existe partiellement dans PlugKit (énumération et tableau de publication, sans page), le site et ArtStation sont absents. ArtStation n'a aucune API publique d'écriture, donc mode passation. (3 October 2026)
 - Dépôt du code : /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPostKit. (3 October 2026)
 - Atelier et moisson brute : /Users/zenray/.claude/tmp/tmp-zenray-postkit/reference/plugkit-docs/. (3 October 2026)
+
+## 3 October 2026 : État après la première construction complète
+
+- Moteur PostKit construit et testé (150 routes dont les 142 de PlugKit, MCP de 103 outils plus 4, OAuth 2.1, 13 connecteurs, planificateur, webhooks, statistiques, campagnes). 58 tests verts, portes de conformité C1 et C2 vertes dans les deux sens. (3 October 2026)
+- Les trois ajouts demandés sont faits : LinkedIn (Posts API officielle, niveau mock), ArtStation (passation, aucune API publique d'écriture), site (worktree git propre, stage par défaut, deploy sur réglage explicite). (3 October 2026)
+- Tableau de bord livré dans ZenRayProgress, entrée PostKit : 10 onglets, 14 tests de vue, 5 tests de contrat contre un vrai processus PostKit, build et suite complète verts. (3 October 2026)
+- Aucun connecteur n'est live : aucun identifiant de plateforme n'existe sur cette machine. Ordre conseillé des premiers appels réels : Telegram, LinkedIn, site, puis Meta et TikTok. Détail : skill zenray-postkit, references/PostKit-Build.md section 6. (3 October 2026)
+- Décision en attente de Matthieu : déployer ou non un serveur PostKit dans le nuage (compte Cloudflare, jetons exposés). Le serveur local tourne dès maintenant, le LaunchAgent est un script à lancer à la main (scripts/launchagent.sh install). (3 October 2026)

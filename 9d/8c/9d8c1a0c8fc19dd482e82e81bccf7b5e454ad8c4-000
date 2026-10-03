@@ -167,3 +167,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:31:35 +0200)
 
 > Le tableau de bord se compile et 12 de ses 14 tests passent; les deux échecs sont des sélecteurs de test trop larges, je les corrige. (3 October 2026, 11:31:35 +0200)
+
+## 3 October 2026, 11:35:03 +0200 : Iteration
+
+<!-- feedback-event:ef583bd2b82e95a0d2e4574220bc7ae8c8c0c5401773b268ab914be8dcdbd020 (3 October 2026, 11:35:03 +0200) -->
+- Project: zenray-postkit; kind: iteration. (3 October 2026, 11:35:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl. (3 October 2026, 11:35:03 +0200)
+
+> Je rédige maintenant le README du produit et le document « comment PostKit est construit » dans le skill, avec l'état réellement vérifié. (3 October 2026, 11:35:03 +0200)
