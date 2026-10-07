@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "projectId": "zenray-postkit",
+ "scannedAt": "2026-10-07T08:30:25.776Z",
+ "conversations": [
+  {
+   "projectId": "zenray-postkit",
+   "lines": 23,
+   "work": 6,
+   "prompts": 0,
+   "first": "2026-10-03T08:50:19.286Z",
+   "last": "2026-10-03T10:11:41.046Z",
+   "strength": "strong",
+   "conversationId": "claude:00ffe75e-952c-45fc-88a9-6f1bb05adeb3",
+   "provider": "claude",
+   "sessionId": "00ffe75e-952c-45fc-88a9-6f1bb05adeb3",
+   "title": "Plugkit PostKit",
+   "updatedAt": "2026-10-03T10:11:55.994Z",
+   "bytes": 20153,
+   "boundProject": "zenray-postkit"
+  },
+  {
+   "projectId": "zenray-postkit",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-03T13:45:15.791Z",
+   "last": "2026-10-03T13:45:15.791Z",
+   "strength": "weak",
+   "conversationId": "codex:01a10202-a5c2-7942-9ec6-be571d28506f",
+   "provider": "codex",
+   "sessionId": "01a10202-a5c2-7942-9ec6-be571d28506f",
+   "title": "Conversation codex 01a10202",
+   "updatedAt": "2026-10-04T08:38:22.947Z",
+   "bytes": 20284991,
+   "boundProject": "zenray-dictate"
+  }
+ ]
+}
