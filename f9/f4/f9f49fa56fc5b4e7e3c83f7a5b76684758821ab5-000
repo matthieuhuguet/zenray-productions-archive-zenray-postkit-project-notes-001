@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-postkit",
- "scannedAt": "2026-10-07T08:30:25.776Z",
+ "scannedAt": "2026-10-07T10:05:54.735Z",
  "conversations": [
   {
    "projectId": "zenray-postkit",
@@ -31,8 +31,8 @@
    "provider": "codex",
    "sessionId": "01a10202-a5c2-7942-9ec6-be571d28506f",
    "title": "Conversation codex 01a10202",
-   "updatedAt": "2026-10-04T08:38:22.947Z",
-   "bytes": 20284991,
+   "updatedAt": "2026-10-07T10:05:39.599Z",
+   "bytes": 21618605,
    "boundProject": "zenray-dictate"
   }
  ]
